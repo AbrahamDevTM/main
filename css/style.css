@@ -1,0 +1,137 @@
+
+@media (prefers-reduced-motion: no-preference) {
+	* {
+	  scroll-behavior: smooth;
+	}
+  }
+
+html, body {
+		float: right;
+		background: #1b1b32;
+		color: #312e52;
+		font-family: Helvetica;
+		
+}
+
+#main-doc{
+	line-height: 1.8em;
+	padding: 15px;
+}
+section{
+	margin-left: 200px;
+}
+.main-section{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: lighter;
+}
+section li{
+	
+	margin-left: 10px;
+}
+#navbar ul{
+	margin-left: -40px;
+	list-style: none;
+	height: 100%;
+	width: 150px;
+	vertical-align: middle;
+	position: fixed;
+	margin-top: -2px;
+	top:0; left: 0;
+	box-shadow: 2px 0 5px black;
+	overflow-wrap: normal;
+	float: left;
+	text-align: left;
+}
+#navbar li{
+	
+	position: relative;
+	margin: 5px;
+}
+.nav-link{
+	 display: block;
+	text-decoration: none;
+		 cursor: pointer;
+		 background-color: #312e52;
+		 color: #1b1b32;
+		 border-top: 2.5px solid #343c4f;
+	border-bottom: 2.5px solid #343c4f;
+}
+.nav-link:active{
+	background-color: #1b1b32;
+	color: #312e52;
+	transition: all 0.3s;
+}
+header{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+p{
+	font-size: 1rem;
+	font-weight: lighter;
+}
+code{
+	display: block;
+	white-space: pre-line;
+	line-height: 2.2em;
+	max-width: fit-content;
+	max-height: fit-content;
+	background-color: #343c4f;
+	color: #cbcfda;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 50px;
+}
+.func{
+	color: #e6465c;
+}
+.func_name{
+	color: #95daea;
+}
+.num{
+	color: #7cd4c6;
+}
+.elem{
+	color: #559edd;
+}
+.cond{
+	color: #dd84b4;
+}
+.str{
+	color: #ede0a2;
+}
+.comment{
+	color: #bae4c1;
+}
+#ref{
+	text-decoration: none;
+	font-size: large;
+}
+#ref:hover{
+	font-size: larger;
+	color: #559edd;
+	transition: all 0.4s;
+}
+@media only screen and (max-width: 815px) {
+	header{
+		font-size: 1.8rem;
+		font-weight: bold;
+	}
+	p{
+		font-size: 0.99rem;
+		font-weight: light;
+	}
+  }
+  
+  @media only screen and (max-width: 400px) {
+	header{
+		font-size: 1.4rem;
+		font-weight: bold;
+	}
+	p{
+		font-size: 0.85rem;
+		font-weight: light;
+	}
+	section{
+		margin-left: 100px;
+	}
+  }
